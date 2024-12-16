@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calocal "
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginBottom="25dp"/>
+
+    <TextView
+        android:id="@+id/tt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Age :"
+        android:textStyle="italic"
+        android:textSize="35dp"
+        android:layout_marginBottom="5dp"/>
+
+    <EditText
+        android:id="@+id/et1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:text="enter your age "
+        android:textStyle="italic"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:id="@+id/tt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Height :"
+        android:layout_marginTop="50dp"
+        android:textStyle="italic"
+        android:textSize="35dp"
+        android:layout_marginBottom="5dp"/>
+
+    <EditText
+        android:id="@+id/et2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:text="enter your height "
+        android:textStyle="italic"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:id="@+id/tt3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Weight :"
+        android:layout_marginTop="50dp"
+        android:textStyle="italic"
+        android:textSize="35dp"
+        android:layout_marginBottom="5dp"/>
+
+    <EditText
+        android:id="@+id/et3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:text="enter your weight"
+        android:textStyle="italic"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Access"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
